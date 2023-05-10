@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <!--This is already created users present on the UI to execute the scenarios. This would be change as per data on the UI deleted or refreshed.-->
+  <ArrayOfUser>
+    <!--Hard coded Users data for Maxxia.-->
+    <User>
+      <Name>009403082</Name>
+      <Password>Password123</Password>
+      <UserType>MOLUser</UserType>
+      <IsCreated>true</IsCreated>
+    </User>
+    <User>
+      <Name>376903770</Name>
+      <Password>MOL1234</Password>
+      <UserType>OnlyVMSUser</UserType>
+      <IsCreated>true</IsCreated>
+    </User>
+  </ArrayOfUser>
+</Data>

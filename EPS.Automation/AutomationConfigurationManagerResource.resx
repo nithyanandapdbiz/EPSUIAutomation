@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppServerName_Key" xml:space="preserve">
+    <value>AppServerName</value>
+  </data>
+  <data name="AutomationConfig_DownloadFile_Path" xml:space="preserve">
+    <value>\MMSG.Automation\ApplicationDownloadedFiles</value>
+  </data>
+  <data name="AutomationConfig_Testdata_Path" xml:space="preserve">
+    <value>\..\..\..\MMSG.Pages</value>
+  </data>
+  <data name="AUTOMATION_BROWSER_KEY" xml:space="preserve">
+    <value>AUTOMATION_BROWSER</value>
+  </data>
+  <data name="AUTOMATION_TEST_ENVIRONMENT_KEY" xml:space="preserve">
+    <value>AUTOMATION_TEST_ENVIRONMENT</value>
+  </data>
+  <data name="BatchProcessFile_Name" xml:space="preserve">
+    <value>execBatchProcess</value>
+  </data>
+  <data name="BatchProcess_Path" xml:space="preserve">
+    <value>BatchProcess</value>
+  </data>
+  <data name="BrowserName_Key" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="COMETURLRootDEVAPP01_Key" xml:space="preserve">
+    <value>COMETDEVAPP01</value>
+  </data>
+  <data name="COMETURLRootDEVAPP05_Key" xml:space="preserve">
+    <value>COMETDEVAPP05</value>
+  </data>
+  <data name="COMETURLRootDEVAPP16_Key" xml:space="preserve">
+    <value>COMETDEVAPP16</value>
+  </data>
+  <data name="Comet_ProductName" xml:space="preserve">
+    <value>COMET</value>
+  </data>
+  <data name="COMET_ServerError" xml:space="preserve">
+    <value>ucSEM_PopupErrorMsg</value>
+  </data>
+  <data name="COMET_URL" xml:space="preserve">
+    <value>http://{0}/Comet</value>
+  </data>
+  <data name="CONAV_URL" xml:space="preserve">
+    <value>http://Environment.conavmaxxia.com.au</value>
+  </data>
+  <data name="ContinueExecutionAfterFailure_Key" xml:space="preserve">
+    <value>ContinueExecutionAfterFailure</value>
+  </data>
+  <data name="DBCommandTimeout_Key" xml:space="preserve">
+    <value>DBCommandTimeoutInSeconds</value>
+  </data>
+  <data name="DBConnectionString" xml:space="preserve">
+    <value>Data Source={0};Trusted_Connection=Yes;</value>
+  </data>
+  <data name="DBServerName_Key" xml:space="preserve">
+    <value>DBServerName</value>
+  </data>
+  <data name="DOWNLOAD_PATH_Key" xml:space="preserve">
+    <value>DOWNLOAD_PATH</value>
+  </data>
+  <data name="Environment_Key" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="ExtentReportAppConfigFileName" xml:space="preserve">
+    <value>extent-config</value>
+  </data>
+  <data name="ExtentReportAppConfig_FileName" xml:space="preserve">
+    <value>\MMSG.Automation\extent-config.xml</value>
+  </data>
+  <data name="Folder_TraversePath" xml:space="preserve">
+    <value>..\..\..\</value>
+  </data>
+  <data name="InMemoryTestData_Path" xml:space="preserve">
+    <value>TestData</value>
+  </data>
+  <data name="LogFile_Name" xml:space="preserve">
+    <value>MMSG.Automation</value>
+  </data>
+  <data name="Login_Page_MOL_Activation" xml:space="preserve">
+    <value>Activate/Verify</value>
+  </data>
+  <data name="Log_Path" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MMSG_TESTDATA_PATH_Key" xml:space="preserve">
+    <value>MMSG_TESTDATA_PATH</value>
+  </data>
+  <data name="MOLURLRootDEVAPP01_Key" xml:space="preserve">
+    <value>MOLDEVAPP01</value>
+  </data>
+  <data name="MOLURLRootDEVAPP05_Key" xml:space="preserve">
+    <value>MOLDEVAPP05</value>
+  </data>
+  <data name="MOLURLRootDEVAPP16_Key" xml:space="preserve">
+    <value>MOLDEVAPP16</value>
+  </data>
+  <data name="MOL_URL" xml:space="preserve">
+    <value>https://{0}-{1}.outsystemsenterprise.com/SecureMaxxia/login.aspx</value>
+  </data>
+  <data name="Output_Path" xml:space="preserve">
+    <value>\Out\</value>
+  </data>
+  <data name="Product_Key" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Reports_Path" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="ROLURLRootDEVAPP01_Key" xml:space="preserve">
+    <value>ROLDEVAPP01</value>
+  </data>
+  <data name="ROLURLRootDEVAPP05_Key" xml:space="preserve">
+    <value>ROLDEVAPP05</value>
+  </data>
+  <data name="ROLURLRootDEVAPP16_Key" xml:space="preserve">
+    <value>ROLDEVAPP16</value>
+  </data>
+  <data name="ROL_URL" xml:space="preserve">
+    <value>http://{0}.secureremserv.com.au</value>
+  </data>
+  <data name="ScreenShots_Path" xml:space="preserve">
+    <value>ScreenShots</value>
+  </data>
+  <data name="SPCommandTimeout_Key" xml:space="preserve">
+    <value>SPCommandTimeoutInSeconds</value>
+  </data>
+  <data name="TestData_Path" xml:space="preserve">
+    <value>TestData</value>
+  </data>
+  <data name="Testreport_Name" xml:space="preserve">
+    <value>_TestReport_</value>
+  </data>
+  <data name="Testresult_Path" xml:space="preserve">
+    <value>\..\..\..\TestResults\</value>
+  </data>
+  <data name="TestTimeOut_Key" xml:space="preserve">
+    <value>TestTimeOut</value>
+  </data>
+  <data name="TextSeparator" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="TFS_API_AttachFile_Endpoint" xml:space="preserve">
+    <value>http://mslmcotfs01:8080/tfs/McMillan%20Shakespeare%20Australia/MMSG/_apis/test/runs/{0}/attachments?api-version=3.2-preview.1</value>
+  </data>
+  <data name="TFS_API_GetAllTestRuns_Endpoint" xml:space="preserve">
+    <value>http://mslmcotfs01:8080/tfs/McMillan%20Shakespeare%20Australia/MMSG/_apis/test/runs/</value>
+  </data>
+  <data name="TraversePath" xml:space="preserve">
+    <value>\..\</value>
+  </data>
+  <data name="XMLFolderName" xml:space="preserve">
+    <value>XML</value>
+  </data>
+</root>
